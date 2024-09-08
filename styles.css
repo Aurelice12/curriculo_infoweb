@@ -1,0 +1,77 @@
+header {
+  background-color: rgb(182, 182, 255);
+  color: rgb(44, 44, 82);
+  border-radius: 0 0 4rem 4rem;
+  padding: 0.45rem;
+  align-items: center;
+}
+
+img {
+  margin-right: 20px;
+}
+
+.texto_centralizado {
+  text-align: center;
+}
+
+body {
+  background-image: url("https://img.freepik.com/vetores-premium/fundo-de-aquarela-liquida-de-lavanda-roxa-com-linhas-douradas_353323-676.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: rgb(44, 44, 82);
+}
+
+h4 {
+  color: rgb(34, 34, 63);
+  text-decoration: underline;
+}
+
+a {
+  color: rgb(58, 58, 148);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 175);
+}
+
+a:visited {
+  color: rgb(56, 56, 94);
+}
+
+a:visited:hover {
+  color: rgb(0, 0, 175);
+}
+
+body ::selection {
+  background-color: mediumslateblue;
+  color: rgb(182, 182, 255);
+}
+
+table {
+  text-align: center;
+}
+
+thead {
+  text-decoration: solid;
+  background-color: mediumslateblue;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: rgb(165, 165, 253);
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: mediumslateblue;
+}
+
+footer {
+  background-color: rgb(182, 182, 255);
+  color: rgb(44, 44, 82);
+  border-radius: 0 0 4rem 4rem;
+  padding: 0.45rem;
+}
